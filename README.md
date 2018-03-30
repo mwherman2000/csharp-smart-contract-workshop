@@ -10,7 +10,7 @@ To learn more about contributing to the `neo-csharpcoe`, click [here](https://gi
 
 ## Workshop for programming smart contracts with .NET, C# and Visual Studio
 
-This original idea, structure, and content for this workshop was created by Chris Hager (@metachris), a NEO community member, for the NEO Python community: [Workshop for programming smart contracts with Python (python-smart-contract-workshop)](https://github.com/CityOfZion/python-smart-contract-workshop) ([https://github.com/CityOfZion/python-smart-contract-workshop](https://github.com/CityOfZion/python-smart-contract-workshop)).
+This original idea, structure, and content for this workshop was created by Chris Hager (@metachris) for the NEO Python community: [Workshop for programming smart contracts with Python (python-smart-contract-workshop)](https://github.com/CityOfZion/python-smart-contract-workshop) ([https://github.com/CityOfZion/python-smart-contract-workshop](https://github.com/CityOfZion/python-smart-contract-workshop)).
 
 The [Workshop for programming smart contracts with .NET, C# and Visual Studio (csharp-smart-contract-workshop)](https://github.com/mwherman2000/csharp-smart-contract-workshop) ([https://github.com/mwherman2000/csharp-smart-contract-workshop](https://github.com/mwherman2000/csharp-smart-contract-workshop)) is a parallel effort for C# Developers that is based on Chris's original [Python workshop](https://github.com/CityOfZion/python-smart-contract-workshop) content (as of March 2018).
 
