@@ -1,3 +1,36 @@
+# Workshop for programming smart contracts with .NET, C# and Visual Studio
+
+[NEO Blockchain C# Developers Center of Excellence](https://github.com/mwherman2000/neo-csharpcoe/blob/master/README.md)
+
+The `neo-csharpcoe` project is an "umbrella" project for several initiatives related to providing tools and libraries (code), frameworks, how-to documentation, and best practices for enterprise application development using .NET/C#, C#.NEO and the NEO Blockchain software platform.
+
+The `neo-csharpcoe` is an independent, free, open source project that is 100% community-supported by people like yourself through your contributions of time, energy, passion, promotion, and donations.  
+
+To learn more about contributing to the `neo-csharpcoe`, click [here](https://github.com/mwherman2000/neo-csharpcoe/blob/master/CONTRIBUTE.md).
+
+## Workshop for programming smart contracts with .NET, C# and Visual Studio
+
+This original idea, structure, and content for this workshop was created by Chris Hager (@metachris), a NEO community member, for the NEO python community: [Workshop for programming smart contracts with Python (python-smart-contract-workshop)](https://github.com/CityOfZion/python-smart-contract-workshop) ([https://github.com/CityOfZion/python-smart-contract-workshop](https://github.com/CityOfZion/python-smart-contract-workshop)).
+
+The [Workshop for programming smart contracts with .NET, C# and Visual Studio (csharp-smart-contract-workshop)](https://github.com/mwherman2000/csharp-smart-contract-workshop) ([https://github.com/mwherman2000/csharp-smart-contract-workshop](https://github.com/mwherman2000/csharp-smart-contract-workshop)) is a parallel effort for C# Developers that is based on Chris's original [python workshop](https://github.com/CityOfZion/python-smart-contract-workshop) content (as of March 2018).
+
+### Purpose
+
+The purpose of this activity is to for you to ensure you have Windows environment that is compatible with the list of 10 activities described in this document (and to save you a lot of time if your environment isn't compatible).  
+
+### Goals, Non-Goals and Assumptions
+
+The goal of this activity is to inform you about the minimum and recommended pre-requisites for successful execution of the remaining acitivities in Quick Start Guide for Windows .NET Developers.
+
+### Principles
+
+* Provide reliable documentation: timely, accurate, visual, and complete
+* Save as much of a person's time as possible
+
+### Drivers
+
+* Lack of an existing set of concise and easy to follow documentation
+
 ## Links
 
 * [Slides](https://goo.gl/3zve4E)
