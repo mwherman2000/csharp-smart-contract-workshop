@@ -16,11 +16,11 @@ The [Workshop for programming smart contracts with .NET, C# and Visual Studio (c
 
 ### Purpose
 
-The purpose of this activity is to for you to ensure you have Windows environment that is compatible with the list of 10 activities described in this document (and to save you a lot of time if your environment isn't compatible).  
+TODO  
 
 ### Goals, Non-Goals and Assumptions
 
-The goal of this activity is to inform you about the minimum and recommended pre-requisites for successful execution of the remaining acitivities in Quick Start Guide for Windows .NET Developers.
+TODO
 
 ### Principles
 
@@ -29,7 +29,7 @@ The goal of this activity is to inform you about the minimum and recommended pre
 
 ### Drivers
 
-* Lack of an existing set of concise and easy to follow documentation
+TODO
 
 ## Links
 
