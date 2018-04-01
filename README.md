@@ -60,7 +60,7 @@ Hands-on smart contract development workshop: .NET/C#/Visual Studio on the NEO B
 
 ### Comments and Feedback
 
-If you have any issues or ideas for improvements, please leave your feedback on the [GitHub Repository](https://github.com/mwherman2000/csharp-smart-contract-workshop/issues) and in the #csharp channel in [NEO Discord Group](https://discord.gg/R8v48YA).
+If you have any issues or ideas for improvements, please leave your feedback on the [GitHub Repository](https://github.com/mwherman2000/csharp-smart-contract-workshop) and in the #csharp channel in [NEO Discord Group](https://discord.gg/R8v48YA).
 
 
 ## What is the [NEO Blockchain C# Developers Center of Excellence](https://github.com/mwherman2000/neo-csharpcoe/blob/master/README.md)?
