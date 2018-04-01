@@ -1,7 +1,5 @@
 ﻿using Neo.SmartContract.Framework;
 using Neo.SmartContract.Framework.Services.Neo;
-using System;
-using System.Numerics;
 
 namespace lab2_logandnotify
 {
