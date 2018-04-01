@@ -1,0 +1,8 @@
+D:\repos\csharp-smart-contract-workshop\csharp-examples\lab3_storage\bin\Debug\lab3_storage.dll
+D:\repos\csharp-smart-contract-workshop\csharp-examples\lab3_storage\bin\Debug\lab3_storage.pdb
+D:\repos\csharp-smart-contract-workshop\csharp-examples\lab3_storage\bin\Debug\Neo.SmartContract.Framework.dll
+D:\repos\csharp-smart-contract-workshop\csharp-examples\lab3_storage\obj\Debug\lab3_storage.csproj.CoreCompileInputs.cache
+D:\repos\csharp-smart-contract-workshop\csharp-examples\lab3_storage\obj\Debug\lab3_storage.csproj.CopyComplete
+D:\repos\csharp-smart-contract-workshop\csharp-examples\lab3_storage\obj\Debug\lab3_storage.dll
+D:\repos\csharp-smart-contract-workshop\csharp-examples\lab3_storage\obj\Debug\lab3_storage.pdb
+D:\repos\csharp-smart-contract-workshop\csharp-examples\lab3_storage\obj\Debug\lab3_storage.csprojResolveAssemblyReference.cache

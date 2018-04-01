@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab1_log", "lab1_log\lab1_log.csproj", "{70E34C19-499C-45EE-8746-08425DCD15CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab2_logandnotify", "lab2_logandnotify\lab2_logandnotify.csproj", "{6F5F2544-1CE5-461E-82F4-3FA32DAB7D55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab3_storage", "lab3_storage\lab3_storage.csproj", "{2DEC4EBF-EF4F-4F23-9463-3D87057BA42D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab5_domain", "lab5_domain\lab5_domain.csproj", "{332148B3-6CAC-4E08-96BF-2A3FB39F95DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab4_processoperationpattern", "lab4_processoperationpattern\lab4_processoperationpattern.csproj", "{951D7D9D-28C0-4DD9-A976-25741C93F43E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab6_NEP5pattern", "lab6_NEP5pattern\lab6_NEP5pattern.csproj", "{67F7FD17-392E-49D8-A56A-D2B2B8CC1514}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70E34C19-499C-45EE-8746-08425DCD15CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E34C19-499C-45EE-8746-08425DCD15CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E34C19-499C-45EE-8746-08425DCD15CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E34C19-499C-45EE-8746-08425DCD15CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F5F2544-1CE5-461E-82F4-3FA32DAB7D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F5F2544-1CE5-461E-82F4-3FA32DAB7D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F5F2544-1CE5-461E-82F4-3FA32DAB7D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F5F2544-1CE5-461E-82F4-3FA32DAB7D55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DEC4EBF-EF4F-4F23-9463-3D87057BA42D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DEC4EBF-EF4F-4F23-9463-3D87057BA42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DEC4EBF-EF4F-4F23-9463-3D87057BA42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DEC4EBF-EF4F-4F23-9463-3D87057BA42D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{332148B3-6CAC-4E08-96BF-2A3FB39F95DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{332148B3-6CAC-4E08-96BF-2A3FB39F95DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{332148B3-6CAC-4E08-96BF-2A3FB39F95DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{332148B3-6CAC-4E08-96BF-2A3FB39F95DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{951D7D9D-28C0-4DD9-A976-25741C93F43E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{951D7D9D-28C0-4DD9-A976-25741C93F43E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{951D7D9D-28C0-4DD9-A976-25741C93F43E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{951D7D9D-28C0-4DD9-A976-25741C93F43E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F7FD17-392E-49D8-A56A-D2B2B8CC1514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F7FD17-392E-49D8-A56A-D2B2B8CC1514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F7FD17-392E-49D8-A56A-D2B2B8CC1514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F7FD17-392E-49D8-A56A-D2B2B8CC1514}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07A4943F-274F-4FD0-A1D2-2768179F803D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+D:\repos\csharp-smart-contract-workshop\csharp-examples\lab4_domain\bin\Debug\lab4_domain.dll
+D:\repos\csharp-smart-contract-workshop\csharp-examples\lab4_domain\bin\Debug\lab4_domain.pdb
+D:\repos\csharp-smart-contract-workshop\csharp-examples\lab4_domain\bin\Debug\Neo.SmartContract.Framework.dll
+D:\repos\csharp-smart-contract-workshop\csharp-examples\lab4_domain\obj\Debug\lab4_domain.csprojResolveAssemblyReference.cache
+D:\repos\csharp-smart-contract-workshop\csharp-examples\lab4_domain\obj\Debug\lab4_domain.csproj.CoreCompileInputs.cache
+D:\repos\csharp-smart-contract-workshop\csharp-examples\lab4_domain\obj\Debug\lab4_domain.csproj.CopyComplete
+D:\repos\csharp-smart-contract-workshop\csharp-examples\lab4_domain\obj\Debug\lab4_domain.dll
+D:\repos\csharp-smart-contract-workshop\csharp-examples\lab4_domain\obj\Debug\lab4_domain.pdb
