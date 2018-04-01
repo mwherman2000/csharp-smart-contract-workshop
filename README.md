@@ -35,6 +35,8 @@ This C# version of the workshop, [Workshop for programming smart contracts with 
 * [Preparation](https://github.com/mwherman2000/csharp-smart-contract-workshop#preparation)
 * [Workshop Content](https://github.com/mwherman2000/csharp-smart-contract-workshop#course-content)
 * [Labs and Solutions](https://github.com/mwherman2000/csharp-smart-contract-workshop#labs-and-solutions)
+* [Other Resources](https://github.com/mwherman2000/csharp-smart-contract-workshop#other-resources)
+* [Comments and Feedback](https://github.com/mwherman2000/csharp-smart-contract-workshop#comments-and-feedback)
 
 ### Preparation
 
