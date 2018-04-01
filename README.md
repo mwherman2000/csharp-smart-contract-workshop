@@ -1,4 +1,4 @@
-# Workshop for programming smart contracts with .NET, C# and Visual Studio
+# Workshop for programming smart contracts with .NET, C# and Visual Studio (csharp-smart-contract-workshop)
 
 [NEO Blockchain C# Developers Center of Excellence](https://github.com/mwherman2000/neo-csharpcoe/blob/master/README.md)
 
