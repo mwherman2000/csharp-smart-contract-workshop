@@ -32,9 +32,9 @@ This C# version of the workshop, [Workshop for programming smart contracts with 
 
 ## Workshop Content
 
-* Preparation
-* Workshop Content
-* Labs and Solutions
+* [Preparation](https://github.com/mwherman2000/csharp-smart-contract-workshop#preparation)
+* [Workshop Content](https://github.com/mwherman2000/csharp-smart-contract-workshop#course-content)
+* [Labs and Solutions](https://github.com/mwherman2000/csharp-smart-contract-workshop#labs-and-solutions)
 
 ### Preparation
 
