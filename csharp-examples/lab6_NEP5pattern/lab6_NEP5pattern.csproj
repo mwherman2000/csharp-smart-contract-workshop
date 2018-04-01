@@ -66,4 +66,8 @@
     </Message>
     <ConvertTask DataSource="$(TargetPath)" />
   </Target>
+  <PropertyGroup>
+    <PostBuildEvent>set PATH="D:\repos\neo-debugger-tools\NEO-Compiler\bin\Debug";%25PATH%25
+neon.exe $(TargetPath)</PostBuildEvent>
+  </PropertyGroup>
 </Project>

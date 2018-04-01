@@ -5,4 +5,3 @@ D:\repos\csharp-smart-contract-workshop\csharp-examples\lab5_domain\obj\Debug\la
 D:\repos\csharp-smart-contract-workshop\csharp-examples\lab5_domain\obj\Debug\lab5_domain.csproj.CopyComplete
 D:\repos\csharp-smart-contract-workshop\csharp-examples\lab5_domain\obj\Debug\lab5_domain.dll
 D:\repos\csharp-smart-contract-workshop\csharp-examples\lab5_domain\obj\Debug\lab5_domain.pdb
-D:\repos\csharp-smart-contract-workshop\csharp-examples\lab5_domain\obj\Debug\lab5_domain.csprojResolveAssemblyReference.cache
