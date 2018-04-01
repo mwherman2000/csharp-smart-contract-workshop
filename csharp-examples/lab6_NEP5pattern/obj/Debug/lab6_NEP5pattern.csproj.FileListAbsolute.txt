@@ -6,4 +6,3 @@ D:\repos\csharp-smart-contract-workshop\csharp-examples\lab6_NEP5pattern\obj\Deb
 D:\repos\csharp-smart-contract-workshop\csharp-examples\lab6_NEP5pattern\obj\Debug\lab6_NEP5pattern.csproj.CopyComplete
 D:\repos\csharp-smart-contract-workshop\csharp-examples\lab6_NEP5pattern\obj\Debug\lab6_NEP5pattern.dll
 D:\repos\csharp-smart-contract-workshop\csharp-examples\lab6_NEP5pattern\obj\Debug\lab6_NEP5pattern.pdb
-D:\repos\csharp-smart-contract-workshop\csharp-examples\lab6_NEP5pattern\obj\Debug\lab6_NEP5pattern.csprojResolveAssemblyReference.cache

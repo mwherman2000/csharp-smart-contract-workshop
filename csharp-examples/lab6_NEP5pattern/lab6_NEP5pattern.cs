@@ -5,6 +5,25 @@ using System.Numerics;
 
 // NEP5 Token Proposal: https://github.com/neo-project/proposals/blob/master/nep-5.mediawiki
 
+// Testing:
+// operation,     args
+// ---------,     -------------------------------------------------------------------------------
+// "deploy"
+//
+// "totalSupply"
+// "name"
+// "symbol"
+// "decimals"
+//
+// "balanceOf",  ["ATrzHaicmhRj15C3Vv6e6gLfLqhSD2PtTr"] // Owner Account
+// "balanceOf",  ["AK2nJJpJr6o664CWJKi1QRXjqeic2zRp8y"] // Account #2
+// "balanceOf",  ["AZ9Bmz6qmboZ4ry1z8p2KF3ftyA2ckJAym"] // Account #3
+// "transfer",   ["ATrzHaicmhRj15C3Vv6e6gLfLqhSD2PtTr", "AK2nJJpJr6o664CWJKi1QRXjqeic2zRp8y", 100]
+// "transfer",   ["ATrzHaicmhRj15C3Vv6e6gLfLqhSD2PtTr", "AZ9Bmz6qmboZ4ry1z8p2KF3ftyA2ckJAym", 100]
+// "transfer",   ["AK2nJJpJr6o664CWJKi1QRXjqeic2zRp8y", "AZ9Bmz6qmboZ4ry1z8p2KF3ftyA2ckJAym", 50]
+// "transfer",   ["AK2nJJpJr6o664CWJKi1QRXjqeic2zRp8y", "AZ9Bmz6qmboZ4ry1z8p2KF3ftyA2ckJAym", 500]
+// "transfer",   ["AK2nJJpJr6o664CWJKi1QRXjqeic2zRp8y", "AK2nJJpJr6o664CWJKi1QRXjqeic2zRp8y", 50]
+
 namespace lab6_NEP5pattern
 {
     public class NEP5Base
@@ -18,7 +37,7 @@ namespace lab6_NEP5pattern
 
     public class lab6_NEP5pattern : SmartContract
     {
-        static readonly byte[] _OwnerAccountScriptHash = "ATrzHaicmhRj15C3Vv6e6gLfLqhSD2PtTr".ToScriptHash(); // for demo purposes
+        static readonly byte[] _OwnerAccountScriptHash = "ATrzHaicmhRj15C3Vv6e6gLfLqhSD2PtTr".AsByteArray(); // .ToScriptHash() //  Demo
 
         public static event Action<byte[], byte[], BigInteger> transfer;
 
@@ -129,7 +148,7 @@ namespace lab6_NEP5pattern
         {
             bool result = false;
 
-            if (Runtime.CheckWitness(TOKENBASE.OwnerAccountScriptHash))
+            if (true) // Runtime.CheckWitness(TOKENBASE.OwnerAccountScriptHash))
             {
                 StorageContext ctx = Storage.CurrentContext;
 
@@ -151,19 +170,19 @@ namespace lab6_NEP5pattern
 
             if (amount > 0)
             {
-                if (Runtime.CheckWitness(from)) // is the account invoking this contract == "from" account
+                if (true) // Runtime.CheckWitness(from)) // is the account invoking this contract == "from" account
                 {
-                    if (from == to)
-                    {
-                        result = true;
-                    }
-                    else // from != to
-                    {
-                        StorageContext ctx = Storage.CurrentContext;
+                    StorageContext ctx = Storage.CurrentContext;
 
-                        // Get balance from the "from" ledger
-                        BigInteger fromBalance = Storage.Get(ctx, from).AsBigInteger();
-                        if (fromBalance > amount)
+                    // Get balance from the "from" ledger
+                    BigInteger fromBalance = Storage.Get(ctx, from).AsBigInteger();
+                    if (fromBalance >= amount)
+                    {
+                        if (from == to)
+                        {
+                            result = true;
+                        }
+                        else // from != to
                         {
                             // Update "from" ledger
                             Storage.Put(ctx, from, fromBalance - amount);

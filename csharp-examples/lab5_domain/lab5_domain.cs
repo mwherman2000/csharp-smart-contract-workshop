@@ -3,13 +3,13 @@ using Neo.SmartContract.Framework.Services.Neo;
 using System;
 using System.Numerics;
 
-//Testing:
+// Testing:
 // operation,   args
 // ---------,   --------------------------------------------------
 // "query",     ["test.com"]
 // "register",  ["test.com", "AK2nJJpJr6o664CWJKi1QRXjqeic2zRp8y"]
 // "delete",    ["test.com"]
-// "transfer",  ["test.com", "AK2nJJpJr6o664CWJKi1QRXjqeic"]
+// "transfer",  ["test.com", "AZ9Bmz6qmboZ4ry1z8p2KF3ftyA2ckJAym"]
 
 namespace lab5_domain
 {
@@ -97,7 +97,7 @@ namespace lab5_domain
 
             Runtime.Notify("RegisterDomain", domain_name, owner);
 
-            if (!Runtime.CheckWitness(owner))
+            if (false) // !Runtime.CheckWitness(owner))
             {
                 Runtime.Notify("Owner argument is not the same as the sender", owner);
                 result = false;
@@ -136,9 +136,9 @@ namespace lab5_domain
             }
             else
             {
-                if (!Runtime.CheckWitness(owner))
+                if (false) // !Runtime.CheckWitness(owner))
                 {
-                    Runtime.Notify("Sender is not the owner on this domain, cannot transfer", domain_name);
+                    Runtime.Notify("Sender is not the owner of this domain, cannot transfer", domain_name);
                     result = false;
                 }
                 else
@@ -174,7 +174,7 @@ namespace lab5_domain
             }
             else
             {
-                if (!Runtime.CheckWitness(owner))
+                if (false) // !Runtime.CheckWitness(owner))
                 {
                     Runtime.Notify("Sender is not the owner on this domain, cannot delete", domain_name);
                     result = false;
