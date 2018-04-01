@@ -32,6 +32,38 @@ This C# version of the workshop, [Workshop for programming smart contracts with 
 
 ## Workshop Content
 
+* Preparation
+* Workshop Content
+* Labs and Solutions
+
+### Preparation
+
+1. Join Discord NEO Developer Community on Discord by clicking on one of the following links: 
+   * https://discord.gg/gqCYeup or https://discord.gg/4TQujHj 
+2. Download and install Microsoft Visual Studio Community Edition 2017. This version is free to download and free to use. It is an excellent IDE for C# smart contract development from here: 
+   * https://www.visualstudio.com/vs/community/
+3. Download and install the .NET 4.7.1 Dev Pack from here:
+   *  https://www.microsoft.com/en-us/download/details.aspx?id=56119
+4. Build the NEO Debugger Tools
+   * Download the NEO Debugger Tools source code from here:    
+      * https://github.com/mwherman2000/neo-debugger-tools/archive/master.zip
+   * Create a new folder on your hard drive – for example `c:\repos`   
+   * Copy `master.zip` into `c:\repos`.
+   * Unzip `master.zip` and build the NEO Debugger Tools following the steps in the diagram below.
+
+      ![Build the NEO Debugger Tools](./images/neo-debugger-tools-build.png) 
+
+5. Lastly, update your Windows PATH environment variable to include the path to the NEO Compiler `neon.exe` by typing the following into the Windows command prompt:
+
+```
+setx PATH="C:\repos\neo-debugger-tools\NEO-Compiler\bin\Debug";%PATH%
+```
+
+**NOTE** Use the `setx` command - not the `set` command.
+
+**NOTE** If you unzipped `master.zip` into a different folder or onto a different hard drive, change the `setx` command to use the folder you chose. 
+
+
 ### Course Content
 
 [![NEO Enterprise dApp Workshop-Ankara-2018-04-02](./Docs/NEO%20Enterprise%20dApp%20Workshop-Ankara-2018-04-02.png)](./Docs/NEO%20Enterprise%20dApp%20Workshop-Ankara-2018-04-02.pdf)
