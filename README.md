@@ -10,7 +10,7 @@ This C# version of the workshop, [Workshop for programming smart contracts with 
 
 ## Purpose
 
-Hands-on smart contract development workshop: .NET/C#/Visual Studio on the NEO Blockchain
+* Hands-on smart contract development workshop: .NET/C#/Visual Studio on the NEO Blockchain
 
 ## Goals, Non-Goals and Assumptions
 
