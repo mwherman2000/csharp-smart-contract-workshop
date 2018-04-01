@@ -5,3 +5,4 @@ D:\repos\csharp-smart-contract-workshop\csharp-examples\lab3_storage\obj\Debug\l
 D:\repos\csharp-smart-contract-workshop\csharp-examples\lab3_storage\obj\Debug\lab3_storage.csproj.CopyComplete
 D:\repos\csharp-smart-contract-workshop\csharp-examples\lab3_storage\obj\Debug\lab3_storage.dll
 D:\repos\csharp-smart-contract-workshop\csharp-examples\lab3_storage\obj\Debug\lab3_storage.pdb
+D:\repos\csharp-smart-contract-workshop\csharp-examples\lab3_storage\obj\Debug\lab3_storage.csprojResolveAssemblyReference.cache
