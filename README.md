@@ -90,6 +90,8 @@ setx PATH="C:\repos\neo-debugger-tools\NEO-Compiler\bin\Debug";%PATH%
 
 * [NEO Blockchain Quick Start Guide for .NET Developers](https://github.com/mwherman2000/neo-dotnetquickstart/blob/master/README.md)
 
+* [Workshop for programming smart contracts with Python (python-smart-contract-workshop)](https://github.com/CityOfZion/python-smart-contract-workshop) 
+
 ### Comments and Feedback
 
 If you have any issues or ideas for improvements, please leave your feedback on the [GitHub Repository](https://github.com/mwherman2000/csharp-smart-contract-workshop) and in the #csharp channel in [NEO Discord Group](https://discord.gg/R8v48YA).
