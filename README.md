@@ -58,10 +58,12 @@ This C# version of the workshop, [Workshop for programming smart contracts with 
 5. Lastly, update your Windows PATH environment variable to include the path to the NEO Compiler `neon.exe` by typing the following into the Windows command prompt:
 
 ```
-setx PATH="C:\repos\neo-debugger-tools\NEO-Compiler\bin\Debug";%PATH%
+setx PATH "C:\repos\neo-debugger-tools\NEO-Compiler\bin\Debug";%PATH%
 ```
 
 **NOTE** Use the `setx` command - not the `set` command.
+
+**NOTE** Do not use an `=` (equals) sign.
 
 **NOTE** If you unzipped `master.zip` into a different folder or onto a different hard drive, change the `setx` command to use the folder you chose. 
 
