@@ -31,7 +31,11 @@ TODO
 
 TODO
 
-## Links
+## Content
+
+### Presentation
+
+![NEO Enterprise dApp Workshop-Ankara-2018-04-02](./Docs/NEO Enterprise dApp Workshop-Ankara-2018-04-02.png)
 
 * [Slides](https://goo.gl/3zve4E)
 * [Links, Infos and Resources](https://goo.gl/SRw1nd) <-- this document has a lot of information and links, be sure to take a look!
