@@ -2,23 +2,17 @@
 
 [NEO Blockchain C# Developers Center of Excellence](https://github.com/mwherman2000/neo-csharpcoe/blob/master/README.md)
 
-The `neo-csharpcoe` project is an "umbrella" project for several initiatives related to providing tools and libraries (code), frameworks, how-to documentation, and best practices for enterprise application development using .NET/C#, C#.NEO and the NEO Blockchain software platform.
-
-The `neo-csharpcoe` is an independent, free, open source project that is 100% community-supported by people like yourself through your contributions of time, energy, passion, promotion, and donations.  
-
-To learn more about contributing to the `neo-csharpcoe`, click [here](https://github.com/mwherman2000/neo-csharpcoe/blob/master/CONTRIBUTE.md).
-
 ## Workshop for programming smart contracts with .NET, C# and Visual Studio
 
 The original idea as well as the structure, and content of this workshop was created by Chris Hager (@metachris) for the NEO Python community: [Workshop for programming smart contracts with Python (python-smart-contract-workshop)](https://github.com/CityOfZion/python-smart-contract-workshop) ([https://github.com/CityOfZion/python-smart-contract-workshop](https://github.com/CityOfZion/python-smart-contract-workshop)).
 
 This C# version of the workshop, [Workshop for programming smart contracts with .NET, C# and Visual Studio (csharp-smart-contract-workshop)](https://github.com/mwherman2000/csharp-smart-contract-workshop) ([https://github.com/mwherman2000/csharp-smart-contract-workshop](https://github.com/mwherman2000/csharp-smart-contract-workshop)), is a parallel effort based on Chris's original [workshop content](https://github.com/CityOfZion/python-smart-contract-workshop) (March 2018).
 
-### Purpose
+## Purpose
 
 Hands-on smart contract development workshop: .NET/C#/Visual Studio on the NEO Blockchain
 
-### Goals, Non-Goals and Assumptions
+## Goals, Non-Goals and Assumptions
 
 * Target audience: Architects and Developers who are new to the NEO Blockchain platform
 * Background: Very little or no previous NEO or .NET/C#/Visual Studio Experience
@@ -26,19 +20,19 @@ Hands-on smart contract development workshop: .NET/C#/Visual Studio on the NEO B
 * Provide you with a basic level of awareness and understanding of NEO smart contract development
 * Help create a strong NEO Blockchain Developer community – helping each other
 
-### Principles
+## Principles
 
 * Provide reliable documentation: timely, accurate, visual, and complete
 * Save as much of a person's time as possible
 * Use open source software whenever possible
 
-### Drivers
+## Drivers
 
 * Need in the NEO .NET developer community to have concise and easy-to-follow documentation to enable people to get up to speed developing NEO smart contracts in as short a time as possible
 
 ## Workshop Content
 
-### Presentation
+### Course Content
 
 [![NEO Enterprise dApp Workshop-Ankara-2018-04-02](./Docs/NEO%20Enterprise%20dApp%20Workshop-Ankara-2018-04-02.png)](./Docs/NEO%20Enterprise%20dApp%20Workshop-Ankara-2018-04-02.pdf)
 
@@ -69,3 +63,10 @@ Hands-on smart contract development workshop: .NET/C#/Visual Studio on the NEO B
 If you have any issues or ideas for improvements, please leave your feedback on the [GitHub Repository](https://github.com/mwherman2000/csharp-smart-contract-workshop/issues) and in the #csharp channel in [NEO Discord Group](https://discord.gg/R8v48YA).
 
 
+## What is the [NEO Blockchain C# Developers Center of Excellence](https://github.com/mwherman2000/neo-csharpcoe/blob/master/README.md)?
+
+The `neo-csharpcoe` project is an "umbrella" project for several initiatives related to providing tools and libraries (code), frameworks, how-to documentation, and best practices for Enterprise Distributed Application development using .NET/C#, C#.NEO and the NEO Blockchain software platform.
+
+The `neo-csharpcoe` is an independent, free, open source project that is 100% community-supported by people like yourself through your contributions of time, energy, passion, promotion, and donations.
+
+To learn more about contributing to the `neo-csharpcoe`, click [here](https://github.com/mwherman2000/neo-csharpcoe/blob/master/CONTRIBUTE.md).
