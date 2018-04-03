@@ -46,7 +46,8 @@ This C# version of the workshop, [Workshop for programming smart contracts with 
    * https://www.visualstudio.com/vs/community/
 3. Download and install the .NET 4.7.1 Dev Pack from here:
    *  https://www.microsoft.com/en-us/download/details.aspx?id=56119
-4. Build the NEO Debugger Tools
+4. Install the NEO Smart Contract Visual Studio 2017 Extension 
+5. Build the NEO Debugger Tools
    * Download the NEO Debugger Tools source code from here:    
       * https://github.com/mwherman2000/neo-debugger-tools/archive/master.zip
    * Create a new folder on your hard drive – for example `c:\repos`   
@@ -55,7 +56,7 @@ This C# version of the workshop, [Workshop for programming smart contracts with 
 
       ![Build the NEO Debugger Tools](./images/neo-debugger-tools-build.png) 
 
-5. Lastly, update your Windows PATH environment variable to include the path to the NEO Compiler `neon.exe` by typing the following into the Windows command prompt [[Reference](https://superuser.com/questions/939232/how-to-change-environment-variable-when-the-option-is-inactive)]:
+6. Lastly, update your Windows PATH environment variable to include the path to the NEO Compiler `neon.exe` by typing the following into the Windows command prompt [[Reference](https://superuser.com/questions/939232/how-to-change-environment-variable-when-the-option-is-inactive)]:
 
 ```
 setx PATH "%PATH%;C:\Repos\neo-debugger-tools-master\NEO-Compiler\bin\Debug"
