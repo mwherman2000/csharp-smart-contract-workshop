@@ -1,5 +1,5 @@
 {
-    "hash":"0xfa7c5b7111dc3e747423fde494f88d420c2bc580",
+    "hash":"0x08b098d1a2c13ae1a1f9928b8b9e50b7ed58a658",
     "entrypoint":"Main",
     "functions":
     [
@@ -17,6 +17,64 @@
                 }
             ],
             "returntype":"Any"
+        },
+        {
+            "name":"TotalSupply",
+            "parameters":
+            [
+            ],
+            "returntype":"Integer"
+        },
+        {
+            "name":"Name",
+            "parameters":
+            [
+            ],
+            "returntype":"String"
+        },
+        {
+            "name":"Symbol",
+            "parameters":
+            [
+            ],
+            "returntype":"String"
+        },
+        {
+            "name":"Decimals",
+            "parameters":
+            [
+            ],
+            "returntype":"Integer"
+        },
+        {
+            "name":"BalanceOf",
+            "parameters":
+            [
+                {
+                    "name":"account",
+                    "type":"ByteArray"
+                }
+            ],
+            "returntype":"Integer"
+        },
+        {
+            "name":"Transfer",
+            "parameters":
+            [
+                {
+                    "name":"from",
+                    "type":"ByteArray"
+                },
+                {
+                    "name":"to",
+                    "type":"ByteArray"
+                },
+                {
+                    "name":"amount",
+                    "type":"Integer"
+                }
+            ],
+            "returntype":"Boolean"
         }
     ],
     "events":

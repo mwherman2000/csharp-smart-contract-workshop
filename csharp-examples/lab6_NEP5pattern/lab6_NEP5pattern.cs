@@ -37,7 +37,11 @@ namespace lab6_NEP5pattern
 
     public class lab6_NEP5pattern : SmartContract
     {
-        static readonly byte[] _OwnerAccountScriptHash = "ATrzHaicmhRj15C3Vv6e6gLfLqhSD2PtTr".AsByteArray(); // .ToScriptHash() //  Demo
+        private static readonly BigInteger _TotalSupply = 10000;
+        private const string _Name = "My Test Token";
+        private const string _Symbol = "MTT";
+        private const byte _Decimals = 8;
+        private static readonly byte[] _OwnerAccountScriptHash = "ATrzHaicmhRj15C3Vv6e6gLfLqhSD2PtTr".AsByteArray(); // .ToScriptHash() //  Demo
 
         public static event Action<byte[], byte[], BigInteger> transfer;
 
@@ -45,31 +49,31 @@ namespace lab6_NEP5pattern
         {
             object result = false; // = 0 (zero)
 
-            NEP5Base TOKENBASE = new NEP5Base { TotalSupply = 10000,
-                                                Name = "My Test Token",
-                                                Symbol = "MTT",
-                                                Decimals = 8,
+            NEP5Base TOKENBASE = new NEP5Base { TotalSupply = _TotalSupply,
+                                                Name = _Name,
+                                                Symbol = _Symbol,
+                                                Decimals = _Decimals,
                                                 OwnerAccountScriptHash = _OwnerAccountScriptHash };
 
             if (operation == "totalSupply")
             {
                 Runtime.Notify("totalSupply");
-                result = TotalSupply(TOKENBASE);
+                result = TotalSupply();
             }
             else if (operation == "name")
             {
                 Runtime.Notify("name");
-                result = Name(TOKENBASE);
+                result = Name();
             }
             else if (operation == "symbol")
             {
                 Runtime.Notify("symbol");
-                result = Symbol(TOKENBASE);
+                result = Symbol();
             }
             else if (operation == "decimals")
             {
                 Runtime.Notify("decimals");
-                result = Decimals(TOKENBASE);
+                result = Decimals();
             }
             else if (operation == "balanceOf")
             {
@@ -81,7 +85,7 @@ namespace lab6_NEP5pattern
                 {
                     byte[] account = (byte[])args[0];
                     Runtime.Notify("balanceOf");
-                    result = BalanceOf(TOKENBASE, account);
+                    result = BalanceOf(account);
                 }
             }
             else if (operation == "transfer")
@@ -96,7 +100,7 @@ namespace lab6_NEP5pattern
                     byte[] to = (byte[])args[1];
                     BigInteger amount = (BigInteger)args[2];
                     Runtime.Notify("transfer", args[0], args[1], args[2]);
-                    result = Transfer(TOKENBASE, from, to, amount);
+                    result = Transfer(from, to, amount);
                 }
             }
             else if (operation == "deploy")
@@ -112,27 +116,27 @@ namespace lab6_NEP5pattern
             return result;
         }
 
-        private static BigInteger TotalSupply(NEP5Base TOKENBASE)
+        public static BigInteger TotalSupply()
         {
-            return TOKENBASE.TotalSupply;
+            return _TotalSupply;
         }
 
-        private static string Name(NEP5Base TOKENBASE)
+        public static string Name()
         {
-            return TOKENBASE.Name;
+            return _Name;
         }
 
-        private static string Symbol(NEP5Base TOKENBASE)
+        public static string Symbol()
         {
-            return TOKENBASE.Symbol;
+            return _Symbol;
         }
 
-        private static byte Decimals(NEP5Base TOKENBASE)
+        public static byte Decimals()
         {
-            return TOKENBASE.Decimals;
+            return _Decimals;
         }
 
-        private static BigInteger BalanceOf(NEP5Base TOKENBASE, byte[] account)
+        public static BigInteger BalanceOf(byte[] account)
         {
             BigInteger result = 0;
 
@@ -144,27 +148,7 @@ namespace lab6_NEP5pattern
             return result;
         }
 
-        private static bool Deploy(NEP5Base TOKENBASE)
-        {
-            bool result = false;
-
-            if (true) // Runtime.CheckWitness(TOKENBASE.OwnerAccountScriptHash))
-            {
-                StorageContext ctx = Storage.CurrentContext;
-
-                // Create on-chain ledger entry for the owner of this token. Check to see if the ledger already exists
-                byte[] currentBalance = Storage.Get(ctx, TOKENBASE.OwnerAccountScriptHash);
-                if (currentBalance.Length == 0)
-                {
-                    Storage.Put(ctx, TOKENBASE.OwnerAccountScriptHash, TOKENBASE.TotalSupply);
-                    result = true;
-                }
-            }
-
-            return result;
-        }
-
-        private static bool Transfer(NEP5Base TOKENBASE, byte[] from, byte[] to, BigInteger amount)
+        public static bool Transfer(byte[] from, byte[] to, BigInteger amount)
         {
             bool result = false;
 
@@ -197,6 +181,26 @@ namespace lab6_NEP5pattern
                             result = true;
                         }
                     }
+                }
+            }
+
+            return result;
+        }
+
+        private static bool Deploy(NEP5Base tokenBase)
+        {
+            bool result = false;
+
+            if (true) // Runtime.CheckWitness(_OwnerAccountScriptHash))
+            {
+                StorageContext ctx = Storage.CurrentContext;
+
+                // Create on-chain ledger entry for the owner of this token. Check to see if the ledger already exists
+                byte[] currentBalance = Storage.Get(ctx, tokenBase.OwnerAccountScriptHash);
+                if (currentBalance.Length == 0)
+                {
+                    Storage.Put(ctx, _OwnerAccountScriptHash, tokenBase.TotalSupply);
+                    result = true;
                 }
             }
 
