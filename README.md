@@ -50,26 +50,29 @@ This C# version of the workshop, [Workshop for programming smart contracts with 
 5. Build the NEO Debugger Tools
    * Download the NEO Debugger Tools source code from here:    
       * https://github.com/mwherman2000/neo-debugger-tools/archive/master.zip
+      * The downloaded file will be called: `neo-debugger-tools-master.zip`
    * Create a new folder on your hard drive – for example `c:\repos`   
-   * Copy `master.zip` into `c:\repos`.
-   * Unzip `master.zip` and build the NEO Debugger Tools following the steps in the diagram below.
+   * Copy `neo-debugger-tools-master.zip` into c:\repos
+   * Unzip `neo-debugger-tools-master.zip` and build the NEO Debugger Tools following the steps using diagram below.
 
       ![Build the NEO Debugger Tools](./images/neo-debugger-tools-build.png) 
 
 6. Lastly, update your Windows PATH environment variable to include the path to the NEO Compiler `neon.exe` by typing the following into the Windows command prompt [[Reference](https://superuser.com/questions/939232/how-to-change-environment-variable-when-the-option-is-inactive)]:
 
 ```
-setx PATH "%PATH%;C:\Repos\neo-debugger-tools-master\NEO-Compiler\bin\Debug"
+setx PATH "%PATH%;C:\repos\neo-debugger-tools-master\NEO-Compiler\bin\Debug"
 ```
 
 **NOTE** Use the `setx` command - not the `set` command.
 
 **NOTE** Do not use an `=` (equals) sign.
 
-**NOTE** If you unzipped `master.zip` into a different folder or onto a different hard drive, change the `setx` command to use the folder you chose. 
+**NOTE** If you unzipped `neo-debugger-tools-master.zip` into a different folder or onto a different hard drive, change the `setx` command to use the folder you chose. 
 
 
 ### Course Content
+
+Click [here](./Docs/NEO%20Enterprise%20dApp%20Workshop-Ankara-2018-04-02.pdf) to download the PDF version of the course content.
 
 [![NEO Enterprise dApp Workshop-Ankara-2018-04-02](./Docs/NEO%20Enterprise%20dApp%20Workshop-Ankara-2018-04-02.png)](./Docs/NEO%20Enterprise%20dApp%20Workshop-Ankara-2018-04-02.pdf)
 
