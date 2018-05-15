@@ -6,3 +6,10 @@ D:\repos\csharp-smart-contract-workshop\csharp-examples\lab4_processoperationpat
 D:\repos\csharp-smart-contract-workshop\csharp-examples\lab4_processoperationpattern\obj\Debug\lab4_processoperationpattern.dll
 D:\repos\csharp-smart-contract-workshop\csharp-examples\lab4_processoperationpattern\obj\Debug\lab4_processoperationpattern.pdb
 D:\repos\csharp-smart-contract-workshop\csharp-examples\lab4_processoperationpattern\obj\Debug\lab4_processoperationpattern.csprojResolveAssemblyReference.cache
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab4_processoperationpattern\bin\Debug\lab4_processoperationpattern.dll
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab4_processoperationpattern\bin\Debug\lab4_processoperationpattern.pdb
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab4_processoperationpattern\bin\Debug\Neo.SmartContract.Framework.dll
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab4_processoperationpattern\obj\Debug\lab4_processoperationpattern.csproj.CoreCompileInputs.cache
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab4_processoperationpattern\obj\Debug\lab4_processoperationpattern.csproj.CopyComplete
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab4_processoperationpattern\obj\Debug\lab4_processoperationpattern.dll
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab4_processoperationpattern\obj\Debug\lab4_processoperationpattern.pdb

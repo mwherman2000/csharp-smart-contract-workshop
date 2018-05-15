@@ -43,7 +43,7 @@ namespace lab6_NEP5pattern
         private const byte _Decimals = 8;
         private static readonly byte[] _OwnerAccountScriptHash = "ATrzHaicmhRj15C3Vv6e6gLfLqhSD2PtTr".AsByteArray(); // .ToScriptHash() //  Demo
 
-        public static event Action<byte[], byte[], BigInteger> transfer;
+        public static event Action<byte[], byte[], BigInteger> Transfer;
 
         public static object Main(string operation, params object[] args)
         {
@@ -58,22 +58,22 @@ namespace lab6_NEP5pattern
             if (operation == "totalSupply")
             {
                 Runtime.Notify("totalSupply");
-                result = TotalSupply();
+                result = totalSupply();
             }
             else if (operation == "name")
             {
                 Runtime.Notify("name");
-                result = Name();
+                result = name();
             }
             else if (operation == "symbol")
             {
                 Runtime.Notify("symbol");
-                result = Symbol();
+                result = symbol();
             }
             else if (operation == "decimals")
             {
                 Runtime.Notify("decimals");
-                result = Decimals();
+                result = decimals();
             }
             else if (operation == "balanceOf")
             {
@@ -85,7 +85,7 @@ namespace lab6_NEP5pattern
                 {
                     byte[] account = (byte[])args[0];
                     Runtime.Notify("balanceOf");
-                    result = BalanceOf(account);
+                    result = balanceOf(account);
                 }
             }
             else if (operation == "transfer")
@@ -100,13 +100,13 @@ namespace lab6_NEP5pattern
                     byte[] to = (byte[])args[1];
                     BigInteger amount = (BigInteger)args[2];
                     Runtime.Notify("transfer", args[0], args[1], args[2]);
-                    result = Transfer(from, to, amount);
+                    result = transfer(from, to, amount);
                 }
             }
             else if (operation == "deploy")
             {
                 Runtime.Notify("deploy");
-                result = Deploy(TOKENBASE);
+                result = deploy(TOKENBASE);
             }
             else
             {
@@ -116,27 +116,27 @@ namespace lab6_NEP5pattern
             return result;
         }
 
-        public static BigInteger TotalSupply()
+        public static BigInteger totalSupply()
         {
             return _TotalSupply;
         }
 
-        public static string Name()
+        public static string name()
         {
             return _Name;
         }
 
-        public static string Symbol()
+        public static string symbol()
         {
             return _Symbol;
         }
 
-        public static byte Decimals()
+        public static byte decimals()
         {
             return _Decimals;
         }
 
-        public static BigInteger BalanceOf(byte[] account)
+        public static BigInteger balanceOf(byte[] account)
         {
             BigInteger result = 0;
 
@@ -148,7 +148,7 @@ namespace lab6_NEP5pattern
             return result;
         }
 
-        public static bool Transfer(byte[] from, byte[] to, BigInteger amount)
+        public static bool transfer(byte[] from, byte[] to, BigInteger amount)
         {
             bool result = false;
 
@@ -187,7 +187,7 @@ namespace lab6_NEP5pattern
             return result;
         }
 
-        private static bool Deploy(NEP5Base tokenBase)
+        private static bool deploy(NEP5Base tokenBase)
         {
             bool result = false;
 

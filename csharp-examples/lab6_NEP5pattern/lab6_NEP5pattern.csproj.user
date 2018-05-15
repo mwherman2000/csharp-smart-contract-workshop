@@ -3,4 +3,9 @@
   <PropertyGroup>
     <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\NEO\workshop\neo-debugger-v1.1-windows\neod.exe</StartProgram>
+    <StartArguments>lab6_NEP5pattern.avm</StartArguments>
+  </PropertyGroup>
 </Project>

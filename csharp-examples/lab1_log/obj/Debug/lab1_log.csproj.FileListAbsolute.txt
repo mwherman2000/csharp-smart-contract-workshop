@@ -5,3 +5,10 @@ D:\repos\csharp-smart-contract-workshop\csharp-examples\lab1_log\obj\Debug\lab1_
 D:\repos\csharp-smart-contract-workshop\csharp-examples\lab1_log\obj\Debug\lab1_log.csproj.CopyComplete
 D:\repos\csharp-smart-contract-workshop\csharp-examples\lab1_log\obj\Debug\lab1_log.dll
 D:\repos\csharp-smart-contract-workshop\csharp-examples\lab1_log\obj\Debug\lab1_log.pdb
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab1_log\bin\Debug\lab1_log.dll
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab1_log\bin\Debug\lab1_log.pdb
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab1_log\bin\Debug\Neo.SmartContract.Framework.dll
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab1_log\obj\Debug\lab1_log.csproj.CoreCompileInputs.cache
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab1_log\obj\Debug\lab1_log.csproj.CopyComplete
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab1_log\obj\Debug\lab1_log.dll
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab1_log\obj\Debug\lab1_log.pdb

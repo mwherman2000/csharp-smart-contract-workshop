@@ -3,4 +3,9 @@
   <PropertyGroup>
     <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\NEO\workshop\neo-debugger-tools\NEO-Debugger-Winform\bin\Debug\neod.exe</StartProgram>
+    <StartArguments>lab1_log.avm</StartArguments>
+  </PropertyGroup>
 </Project>

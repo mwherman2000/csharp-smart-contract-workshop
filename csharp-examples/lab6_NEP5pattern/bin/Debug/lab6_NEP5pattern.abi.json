@@ -1,5 +1,5 @@
 {
-    "hash":"0x08b098d1a2c13ae1a1f9928b8b9e50b7ed58a658",
+    "hash":"0xbcd8ee23bf0732577281c9418fe0fce108769413",
     "entrypoint":"Main",
     "functions":
     [
@@ -19,35 +19,35 @@
             "returntype":"Any"
         },
         {
-            "name":"TotalSupply",
+            "name":"totalSupply",
             "parameters":
             [
             ],
             "returntype":"Integer"
         },
         {
-            "name":"Name",
+            "name":"name",
             "parameters":
             [
             ],
             "returntype":"String"
         },
         {
-            "name":"Symbol",
+            "name":"symbol",
             "parameters":
             [
             ],
             "returntype":"String"
         },
         {
-            "name":"Decimals",
+            "name":"decimals",
             "parameters":
             [
             ],
             "returntype":"Integer"
         },
         {
-            "name":"BalanceOf",
+            "name":"balanceOf",
             "parameters":
             [
                 {
@@ -58,7 +58,7 @@
             "returntype":"Integer"
         },
         {
-            "name":"Transfer",
+            "name":"transfer",
             "parameters":
             [
                 {
@@ -80,7 +80,7 @@
     "events":
     [
         {
-            "name":"transfer",
+            "name":"Transfer",
             "parameters":
             [
                 {

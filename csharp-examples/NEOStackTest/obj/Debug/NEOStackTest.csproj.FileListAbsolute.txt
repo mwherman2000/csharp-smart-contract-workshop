@@ -1,0 +1,7 @@
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\NEOStackTest\bin\Debug\NEOStackTest.dll
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\NEOStackTest\bin\Debug\NEOStackTest.pdb
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\NEOStackTest\bin\Debug\Neo.SmartContract.Framework.dll
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\NEOStackTest\obj\Debug\NEOStackTest.csproj.CoreCompileInputs.cache
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\NEOStackTest\obj\Debug\NEOStackTest.csproj.CopyComplete
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\NEOStackTest\obj\Debug\NEOStackTest.dll
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\NEOStackTest\obj\Debug\NEOStackTest.pdb

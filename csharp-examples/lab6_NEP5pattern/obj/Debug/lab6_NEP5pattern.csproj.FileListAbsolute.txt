@@ -7,3 +7,12 @@ D:\repos\csharp-smart-contract-workshop\csharp-examples\lab6_NEP5pattern\obj\Deb
 D:\repos\csharp-smart-contract-workshop\csharp-examples\lab6_NEP5pattern\obj\Debug\lab6_NEP5pattern.dll
 D:\repos\csharp-smart-contract-workshop\csharp-examples\lab6_NEP5pattern\obj\Debug\lab6_NEP5pattern.pdb
 D:\repos\csharp-smart-contract-workshop\csharp-examples\lab6_NEP5pattern\obj\Debug\lab6_NEP5pattern.csprojResolveAssemblyReference.cache
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab6_NEP5pattern\obj\Debug\lab6_NEP5pattern.csproj.CoreCompileInputs.cache
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab6_NEP5pattern\obj\Debug\lab6_NEP5pattern.dll
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab6_NEP5pattern\obj\Debug\lab6_NEP5pattern.pdb
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab6_NEP5pattern\bin\Debug\mscorlib.dll
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab6_NEP5pattern\bin\Debug\lab6_NEP5pattern.dll
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab6_NEP5pattern\bin\Debug\lab6_NEP5pattern.pdb
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab6_NEP5pattern\bin\Debug\Neo.SmartContract.Framework.dll
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab6_NEP5pattern\obj\Debug\lab6_NEP5pattern.csproj.CopyComplete
+C:\NEO\workshop\csharp-smart-contract-workshop\csharp-examples\lab6_NEP5pattern\obj\Debug\lab6_NEP5pattern.csprojResolveAssemblyReference.cache
