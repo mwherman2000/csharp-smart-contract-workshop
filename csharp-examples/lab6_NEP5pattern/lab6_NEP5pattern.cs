@@ -196,10 +196,11 @@ namespace lab6_NEP5pattern
                 StorageContext ctx = Storage.CurrentContext;
 
                 // Create on-chain ledger entry for the owner of this token. Check to see if the ledger already exists
-                byte[] currentBalance = Storage.Get(ctx, tokenBase.OwnerAccountScriptHash);
-                if (currentBalance.Length == 0)
+                byte[] deployedFlag = Storage.Get(ctx, "Deployed");
+                if (deployedFlag.Length == 0)
                 {
                     Storage.Put(ctx, _OwnerAccountScriptHash, tokenBase.TotalSupply);
+	                Storage.Put(ctx, "Deployed", 1);
                     result = true;
                 }
             }

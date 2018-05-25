@@ -9,6 +9,8 @@ namespace lab1_log
     {
         public static void Main()
         {
+            int bar = 10;
+            var foo = typeof(Int32);
             Runtime.Log("Hello world!");
         }
     }

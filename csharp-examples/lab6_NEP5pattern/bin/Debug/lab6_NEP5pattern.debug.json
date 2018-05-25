@@ -2,7 +2,7 @@
     "avm":
     {
         "name":"lab6_NEP5pattern",
-        "hash":"60F0CE4DB2B66B6F6B065E52EEF97FD2"
+        "hash":"4FC6ADD15829AA6BB7DDC90F4CDA3676"
     },
     "compiler":
     {
@@ -680,57 +680,63 @@
         },
         {
             "start":1583,
-            "end":1620,
+            "end":1622,
             "file":1,
             "line":199
         },
         {
-            "start":1621,
-            "end":1641,
+            "start":1623,
+            "end":1643,
             "file":1,
             "line":200
         },
         {
-            "start":1642,
-            "end":1644,
+            "start":1644,
+            "end":1646,
             "file":1,
             "line":201
         },
         {
-            "start":1645,
-            "end":1713,
+            "start":1647,
+            "end":1715,
             "file":1,
             "line":202
         },
         {
-            "start":1714,
-            "end":1721,
+            "start":1716,
+            "end":1751,
             "file":1,
             "line":203
         },
         {
-            "start":1722,
-            "end":1722,
+            "start":1752,
+            "end":1759,
             "file":1,
             "line":204
         },
         {
-            "start":1723,
-            "end":1723,
+            "start":1760,
+            "end":1760,
             "file":1,
             "line":205
         },
         {
-            "start":1724,
-            "end":1736,
+            "start":1761,
+            "end":1761,
             "file":1,
-            "line":207
+            "line":206
         },
         {
-            "start":1737,
-            "end":1747,
+            "start":1762,
+            "end":1774,
             "file":1,
             "line":208
+        },
+        {
+            "start":1775,
+            "end":1785,
+            "file":1,
+            "line":209
         }
     ]
 }
